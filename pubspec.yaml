@@ -1,0 +1,32 @@
+name: ads_pro
+description: A comprehensive Flutter app demonstrating all AdMob ad formats - App Open, Banner, Interstitial, Native, Rewarded, and Rewarded Interstitial ads.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^6.0.0
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets for the app
+  assets:
+    - assets/images/
+    - assets/icons/
+
+  # Custom fonts (optional)
+  # fonts:
+  #   - family: CustomFont
+  #     fonts:
+  #       - asset: assets/fonts/CustomFont-Regular.ttf 
